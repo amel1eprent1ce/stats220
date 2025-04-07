@@ -68,7 +68,7 @@ reposts_comments_plot
 
 #calculating percentage of reels with hashtags
 
-hashtag_percentage <- (sum(tolower(trimws(latest_data$hashtags)) == "yes", na.rm = TRUE)/35)*100
+hashtag_percentage <- (sum(tolower(trimws(latest_data$hashtags)) == "yes", na.rm = TRUE)/nrow)*100
 
 #calculating average number of comments to average number of reposts
 comments_reposts_ratio <- mean(latest_data$comments)/mean(latest_data$reposts)
