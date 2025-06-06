@@ -1,0 +1,41 @@
+
+body {
+  background-color: #e7e1ef;
+  color: #333333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  padding: 2em;
+}
+
+h2 {
+  color: #dd1c77;
+  border-bottom: 2px solid #c994c7;
+  padding-bottom: 0.2em;
+  margin-top: 2em;
+}
+
+
+code {
+  background-color: #f5f0f8;
+  color: #dd1c77;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 90%;
+}
+
+img {
+  border: 4px solid #c994c7;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Plot captions */
+.plot-caption {
+  font-style: italic;
+  color: #6a4c6d;
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
